@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.mihailxn.emotionalreaction.HomeFragment"
+        android:label="@string/menu_home"
+        android:tag="Home"
+        tools:layout="@layout/fragment_home">
+    <action
+        android:id="@+id/action_HomeFragment_to_CamFragment"
+        app:destination="@id/CamFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CamFragment"
+        android:name="com.mihailxn.emotionalreaction.CamFragment"
+        android:label="@string/menu_test"
+        tools:layout="@layout/fragment_cam">
+    <action
+        android:id="@+id/action_CamFragment_to_HomeFragment"
+        app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SaveFragment"
+        android:name="com.mihailxn.emotionalreaction.HomeFragment"
+        android:label="@string/menu_save_data"
+        tools:layout="@layout/fragment_save" />
+</navigation>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Emotional Reaction</string>
+
+    <string name="take_photo_button">Take a photo</string>
+    <string name="classification_delimiter_text_view">-</string>
+    <string name="face">User</string>
+    <string name="faceless">No face detected</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="test">Test</string>
+    <string name="photo_taken">Photo taken</string>
+
+    <string name="nav_header_title">Mikhail Khnyunin</string>
+    <string name="nav_header_subtitle">mihailxn@mail.ru</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="error_cannot_write">Cannot write image captured by camera.</string>
+    <string name="error_cannot_open">Cannot open camera.</string>
+    <string name="error_cannot_get_permission">Camera permission not available.</string>
+    <string name="error_not_having_camera">Your device does not have front camera.</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="menu_home">Emotion Response Recognition</string>
+    <string name="menu_test">Test image recognition</string>
+    <string name="menu_save_data">Save data</string>
+    <string name="connect_mi_band">Connect mi Band</string>
+</resources>

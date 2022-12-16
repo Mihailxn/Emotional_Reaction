@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/HomeFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/CamFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_test" />
+        <item
+            android:id="@+id/SaveFragment"
+            android:icon="@drawable/ic_arrow_downward_black_24dp"
+            android:title="@string/menu_save_data" />
+        <item
+            android:id="@+id/ConnectFragment"
+            android:icon="@drawable/ic_mi_band"
+            android:title="@string/connect_mi_band" />
+    </group>
+</menu>

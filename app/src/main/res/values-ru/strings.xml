@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Распознавание эмоций</string>
+    <string name="take_photo_button">Сделать фото</string>
+    <string name="classification_delimiter_text_view">-</string>
+    <string name="face">Пользователь</string>
+    <string name="faceless">Не обнаружено лиц</string>
+
+    <string name="test">Проверка алгоритма</string>
+    <string name="photo_taken">Фото сделано</string>
+
+    <string name="nav_header_title">Хнюнин Михаил Витальевич</string>
+    <string name="nav_header_subtitle">xnyunin.stud@nstu.ru</string>
+    <string name="nav_header_desc">Меню</string>
+
+    <string name="error_cannot_write">Не удаётся получить изображение с камеры</string>
+    <string name="error_cannot_open">Не удаётся открыть камеру</string>
+    <string name="error_cannot_get_permission">Доступ к камере не предоставлен</string>
+    <string name="error_not_having_camera">У вашего девайса нет камеры</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Распознавнаие эмоц.отклика</string>
+    <string name="menu_test">Тестирование алгоритма</string>
+    <string name="menu_save_data">Выгрузка статистики</string>
+    <string name="connect_mi_band">Подключение пульсометра</string>
+
+</resources>
